@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Set the author label
-LABEL maintainer="your.email@example.com"
+LABEL maintainer="tipsukanya.n@ku.th"
 
 # Remove the default Nginx website
 RUN rm -rf /usr/share/nginx/html/*
